@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ActivityDetail: View {
     @EnvironmentObject var dataReader: DataReader
+    
     var activity: Activity
     
     var activityIndex: Int{

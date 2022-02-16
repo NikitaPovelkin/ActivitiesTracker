@@ -20,7 +20,6 @@ struct Activity : Hashable, Identifiable, Codable {
         case cycling = "Cycling"
         case other = "Other"
     }
-    
     private var imageName: String
     var image: Image {
         Image(imageName)

@@ -21,6 +21,7 @@ struct CategoryItem: View {
                 .font(.caption)
         }
         .padding(.leading)
+        
     }
 }
 

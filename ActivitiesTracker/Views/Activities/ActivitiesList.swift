@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ActivitiesList: View {
     @EnvironmentObject var dataReader: DataReader
-    
     var body: some View {
         NavigationView{
             List(dataReader.activities){ activity in

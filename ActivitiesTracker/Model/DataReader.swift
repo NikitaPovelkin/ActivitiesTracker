@@ -10,7 +10,6 @@ import Combine
 
 final class DataReader: ObservableObject {
     @Published var activities: [Activity] = load("activityData.json")
-
     var activityRecords: [String: [Activity]] {
         Dictionary(
             grouping: activities,

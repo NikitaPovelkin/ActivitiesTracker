@@ -10,7 +10,6 @@ import SwiftUI
 struct CategoryRow: View {
     var activityTypeName: String
     var items: [Activity]
-    
     var body: some View {
         VStack(alignment: .leading){
             Text(activityTypeName)

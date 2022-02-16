@@ -9,7 +9,6 @@ import SwiftUI
 
 struct CategoryHome: View {
     @EnvironmentObject var dataReader: DataReader
-    
     var body: some View {
         NavigationView{
             List{

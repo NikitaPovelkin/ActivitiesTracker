@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ActivityRow: View {
     var activity: Activity
-    
     var body: some View {
         HStack {
             activity.image
